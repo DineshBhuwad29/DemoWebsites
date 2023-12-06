@@ -22,18 +22,50 @@
     width: 100vw;
     height: 100vh;
     overflow-x: none;
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
 }
 /* nav{
     width: 100%;
 } */
 .navcontainer{
     width: 100vw;
-    background-color: rgb(125, 216, 186);
-    min-height:75px;
+    /* background-color: rgb(125, 216, 186); */
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    min-height:50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #navlogo{
     font-size: 2.4rem;
+    color:azure;
+}
+#navitems{
+    display: flex;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+.contentbox{
+    text-align: center;
+    width: 70%;
+    border: 1px solid black;
+    margin:auto;
+}
+
+.footerbox{
+    width: 100vw;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height:40px; 
+    /* position: relative;
+    height: 200px;
+    margin-top: -200px; */
 }
