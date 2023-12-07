@@ -4,6 +4,11 @@
     box-sizing: border-box;
     
 }
+body{
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+background-repeat: no-repeat;
+}
 
 #navlist{
     padding:15px;
@@ -22,8 +27,8 @@
     width: 100vw;
     height: 100vh;
     overflow-x: none;
-    background-color: #FFDEE9;
-background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    /* background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
 
 }
 /* nav{
@@ -54,10 +59,16 @@ a{
 }
 
 .contentbox{
-    text-align: center;
-    width: 70%;
-    border: 1px solid black;
+    /* text-align: center; */
+    width: 50%;
+    background-color: whitesmoke;
+    /* border: 1px solid black; */
     margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap:90px;
+    box-shadow: 3px 3px 30px black;
+
 }
 
 .footerbox{
@@ -68,4 +79,49 @@ a{
     /* position: relative;
     height: 200px;
     margin-top: -200px; */
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+    padding-right:25px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.rightbox{
+    /* position: relative;
+    overflow: hidden; */
+}
+.rightbox img{
+    height:320px;
+    width:250px;
+    border-radius: 20px;
+    transition: all 0.5s linear 0s;
+}
+
+.rightbox img:hover{
+    transform: scale(1.1);
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0px 10px;
+}
+
+.leftBox h3{
+    font-size: 2rem;
+
+}
+
+.ingBox{
+    font-size: 1rem;
+}
+
+.recipeBox{
+    font-size: 1rem;
 }
