@@ -15,8 +15,26 @@
 }
 
 .card{
-    width: 375px;
-    height:580px;
+    width: 303px;
+    height:505px;
     background-color: white;
+    border-radius: 20px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    padding: 12px;
+}
+
+.card img{
+    /* margin: 17px; */
+    width : 98%;
     border-radius: 18px;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    /* text-align: center; */
 }
