@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height:100vh;
+    background-color: rgb(11, 62, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 66%;
+    height: 55%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#leftbox{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(142, 33, 111);
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#leftheading{
+    width: 70%;
+}
+
+#lefttext{
+    width: 70%;
+}
+
+#leftbottom{
+    width: 70%;
+}
+
+#rightbox{
+    height: 100%;
+    width: 50%;
+}
+
+#rightbox img{
+    height: 100%;
+    width: 100%; 
+}
